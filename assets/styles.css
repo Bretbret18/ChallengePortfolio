@@ -1,17 +1,12 @@
- * {
-     background-color: #5F9EA0;
- }
+
     
 
 /* HEADER */
 
 header {
-    border: 2px solid black;
-    position: relative;
-    top: 0;
-    justify-content: space-evenly;
-    display: flex;
-    overflow: hidden;
+    border: 2px solid #83837c;
+    background-image: url("images/space-1572212_640.png");
+    padding-bottom: 40px;
 }
 
 header a {
@@ -30,7 +25,7 @@ header h2 {
     font-size: 36px;
     color: #FF6347;
     margin: 0;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 header nav ul li a {
@@ -39,16 +34,16 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: #FF3333;
-    color: #EDEDED;
+    background: #FF6347;
+    color: #83837c;
     border-radius: 15px;
-    text-shadow: #FF3333;
+    text-shadow: #FF6347;
 }
 
 /* BODY */
 
 .body-div {
-    background-color: #EDEDED;
+    background-color: #83837c;
     margin: 150px; 
 }
 
@@ -65,15 +60,24 @@ header nav ul li a:hover {
 /* BIO*/
 
 #page-body {
-    margin-top: 10%;
-    margin-left: 10%;
+    margin-top: 5%;
+    margin-left: 9%;
     margin-right: 67%;
 }
 
 #page-body h3 {
-    color: #252325;
     font-size: 36px;
-    margin: auto;
+   margin-right: 63%;
+    border-right: 2px solid #83837c;
+}
+
+#bio h3 {
+    color:#FF6347;
+    padding-right: 10px;
+}
+
+body {
+    background-color: #ccebff;
 }
 
 #page-body img {
@@ -82,33 +86,38 @@ header nav ul li a:hover {
     float: right;
     width: 150px;
     height: 150px;
-    border-radius: 10px;
+    border-radius: 30px;
 }
 
 #bio p {
+    margin-bottom: 15px;
     margin-left: 25%;
     text-indent: 200px;
     text-align: justify;
     letter-spacing: 3px;
     float: right;
     font-size: 18px;
+    font: #83837c;
 }
 
 /* EXAMPLES OF WORK */
 #project-examples {
-    margin-top: 40%;
-    margin-left: 10%;
+    margin-top: 10%;
+    margin-left: 6%;
 }
 
 #project-examples h3 {
     font-size: 36px;
+    color:#FF6347;
+    padding-right: 10px;
+    border-right: 2px solid #83837c;
 }
 
 #project-examples img, #project-examples span {
     width: 200px;
     float: inline-end;
     height: 200px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 /* Contact Info */
@@ -120,14 +129,27 @@ header nav ul li a:hover {
 }
 
 #contact {
-    margin-top: 50%;
+    margin-top: 20%;
     margin-right: 20%;
-    margin-left: 10%;
+    margin-left: 8%;
+}
+
+.contact-bar {
+    color:black;
+    text-decoration: none;
 }
 
 #contact-form {
     font-size: 28px;
     font-weight: 750;
+    color:#FF6347;
+    padding-right: 10px;
+    border-right: 2px solid #83837c;
+}
+
+#firstProjectImage {
+    height: 400px;
+    width: 500px;
 }
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
